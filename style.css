@@ -1,0 +1,32 @@
+h3
+{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-success:hover
+{
+    background-color: #FF69B4;
+}
+
+.btn-success
+{
+    width: 250px;
+    height: 80px;
+    margin:auto ;
+    font-size: 30;
+}
+
+canvas
+{
+   animation-name: shadow; 
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes shadow
+{
+    from{box-shadow: 1px 1px 40px cyan;}
+    to{box-shadow: 1px 1px 40px pink;}
+
+}
